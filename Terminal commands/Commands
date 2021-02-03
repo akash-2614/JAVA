@@ -1,0 +1,35 @@
+
+
+
+* To make new file --->  touch file_Name_With_Extension
+
+* To install something ---> (a). sudo apt install file_name
+    for deb files           (b). sudo dpkg -i file_name
+* To extract rar file ---> sudo unrar e -r Rar_file_name_with_extension
+
+* git remote add origin https://github.com/akash-2614/opps.git
+
+/* 
+* git add  file_name
+* git commit -m "some discription"
+* git push -u origin main 
+*/
+
+* git branch
+*git checkout -b main
+
+/* 
+ To install oracle jdk
+    * sudo dpkg -i jdk-14_linux-x64_bin.deb
+    * sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-15.0.2/bin/java 1
+    * sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-15.0.2/bin/javac 1
+
+    To set the environment variable
+     * sudo gedit /etc/environment (a window will popup)
+     In that window type --> JAVA_HOME="file_path (comes from this command--> sudo update-alternatives 
+     --config java)"
+     SAVE
+
+     * source /etc/environment
+     * echo $JAVA_HOME
+*/
